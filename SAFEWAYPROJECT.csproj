@@ -76,6 +76,7 @@
     <Content Include="start.aspx" />
     <Content Include="Web.config" />
     <Content Include="BrowseService.aspx" />
+    <Content Include="WebForm2.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BookAppointment.aspx.cs">
@@ -123,6 +124,13 @@
     </Compile>
     <Compile Include="BrowseService.aspx.designer.cs">
       <DependentUpon>BrowseService.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm2.aspx.cs">
+      <DependentUpon>WebForm2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm2.aspx.designer.cs">
+      <DependentUpon>WebForm2.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
